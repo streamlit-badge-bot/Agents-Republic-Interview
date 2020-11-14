@@ -35,7 +35,7 @@ st.subheader("Created using Streamlit - Harshil Parikh ")
 @st.cache
 def load_data(nrows):
     #data = pd.read_csv('/Users/harshilparikh/Desktop/INT/data/selections.csv', nrows=nrows)
-    dataset = st.cache(pd.read_csv)('/Users/harshilparikh/Desktop/INT/data/selections.csv')
+    dataset = st.cache(pd.read_csv)('data/selections.csv')
     return dataset
 
 
